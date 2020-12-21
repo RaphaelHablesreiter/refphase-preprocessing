@@ -8,4 +8,4 @@ A simple Snakemake workflow that helps to create the input needed for [refphase]
 * BED-file of targeted regions
 
 ## Output:
-* Pileups for each sample at position of germline variants
+* Pileups for each sample at positions of germline variants
