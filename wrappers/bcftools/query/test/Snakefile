@@ -1,0 +1,9 @@
+rule bcftools_query:
+    input:
+        "{prefix}.vcf"
+    output:
+        "{prefix}.vcf"
+    params:
+        ""  # optional parameters for bcftools query (except -o)
+    wrapper:
+        "master/bio/bcftools/query"

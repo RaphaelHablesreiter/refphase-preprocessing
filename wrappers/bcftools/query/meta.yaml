@@ -1,0 +1,4 @@
+name: bcftools query
+description:  Transform VCF/BCF into user-defined formats
+authors:
+  - Raphael Hablesreiter
